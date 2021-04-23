@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Login and Registration Form
+	</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class=" ">
+ 	<div class="form">
+ 		<form class="register-form">
+ 			<input type="text" placeholder="username"/>
+ 			<input type="text" placeholder="password"/>
+ 			<input type="text" placeholder="email id"/>
+ 		<br>
+ 			<button>Create</button>
+ 			<p class="message">Already Registered? <a href="#">Login</a></p>
+ 		</form>
+
+ 		 <form class="login-form">
+ 		 	<input type="text" placeholder="username"/>
+ 			<input type="text" placeholder="password"/>
+ 		<br>	
+ 			<button>login</button>
+ 			<p class="message">Not Registered? <a href="#">Register</a></p>
+ 		 </form>
+
+ 	</div>
+
+ </div>
+
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script>
+	$('.message a') .click(function(){
+		$('form') .animate({height: "toggle", opacity: "toggle"}, "slow");
+	});
+</script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60827c865eb20e09cf35cfd1/1f3urcskc';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</body>
+</html>
